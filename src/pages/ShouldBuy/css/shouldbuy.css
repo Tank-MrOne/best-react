@@ -1,0 +1,61 @@
+#should-buy {
+  height: 100%;
+}
+#should-buy .backcolor {
+  position: absolute;
+  width: 750px;
+  height: 100%;
+  z-index: -2;
+  background-color: #EEEEEE;
+}
+#should-buy .back {
+  position: absolute;
+  width: 657px;
+  height: 454px;
+  background-image: url('../image/shouldBuy.png');
+  background-size: 100% 100%;
+  z-index: -1;
+}
+#should-buy .titles {
+  color: #fff;
+  padding-top: 61px;
+  padding-left: 10px;
+}
+#should-buy .titles img {
+  width: 114px;
+  vertical-align: middle;
+}
+#should-buy .swiperBox {
+  position: relative;
+  z-index: 999;
+  width: 599px;
+  height: 463px;
+  background-color: #fff;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-top: 25px;
+  padding: 20px 0 0;
+  box-sizing: border-box;
+}
+#should-buy .swiperBox .swiper-container .swiper-wrapper .swiper-slide {
+  width: 150px;
+  height: 221px;
+  text-align: center;
+  box-sizing: border-box;
+}
+#should-buy .swiperBox .swiper-container .swiper-wrapper .swiper-slide img {
+  width: 105px;
+  height: 105px;
+  display: block;
+  box-sizing: border-box;
+  margin: 0 23px 21px;
+}
+#should-buy .swiperBox .swiper-container .swiper-wrapper .swiper-slide b {
+  font-size: 24px;
+  font-weight: bold;
+}
+#should-buy .swiperBox .swiper-container .swiper-wrapper .swiper-slide p {
+  font-size: 24px;
+  margin-top: 5px;
+  color: #999;
+}

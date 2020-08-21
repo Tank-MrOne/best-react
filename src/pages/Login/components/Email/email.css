@@ -1,0 +1,42 @@
+#email .logo {
+  margin-top: 57px;
+  text-align: center;
+}
+#email .logo img {
+  height: 90px;
+}
+#email .box {
+  margin-top: 150px;
+  padding: 0 40px;
+}
+#email .box .input {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  line-height: 92px;
+  border-bottom: solid 1px #f5f5f5;
+}
+#email .box .register {
+  line-height: 96px;
+  color: #858585;
+  font-size: 25px;
+}
+#email .box .register span {
+  float: right;
+}
+#email .box .btn {
+  background-color: #dd1a21;
+  text-align: center;
+  line-height: 92px;
+  font-size: 29px;
+  color: #fff;
+  border-radius: 4px;
+  margin: 10px 0 20px;
+}
+#email .other {
+  text-align: center;
+  color: #333;
+  font-size: 28px;
+  margin-top: 70px;
+}

@@ -1,0 +1,35 @@
+#header {
+  position: fixed;
+  height: 88px;
+  width: 750px;
+  background-color: #bfa;
+  line-height: 88px;
+  padding: 0 16px 0 24px;
+  box-sizing: border-box;
+  background-color: #FAFAFA;
+  border-bottom: solid 1px #eee;
+}
+#header .home {
+  float: left;
+}
+#header .cart {
+  float: right;
+}
+#header .search {
+  float: right;
+}
+#header .iconfont {
+  font-size: 44px;
+  padding: 0 10px;
+  color: #A9B5AF;
+}
+#header .title {
+  width: 750px;
+  text-align: center;
+  font-family: '楷体';
+  font-size: 46px;
+}
+.band {
+  width: 750px;
+  height: 88px;
+}

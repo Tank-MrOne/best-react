@@ -1,0 +1,53 @@
+#login{
+    height: 100%;
+    background-color: #F1F5F4;
+    .logo{
+        padding: ceil(79.999px * 2) 0 ceil(116px * 2);
+        text-align: center;
+        .logoImg{
+            height: ceil(45px * 2);
+        }
+    }
+    .btn{
+        width: ceil(335.03px * 2);
+        height: ceil(46.98px * 2);
+        box-sizing: border-box;
+        font-size: ceil(13.999px * 2);
+        text-align: center;
+        border-radius: 3px;
+        line-height: $height;
+        margin: 0 auto ceil(16.0001px * 2);
+        i{
+            padding-right: 10px;
+            vertical-align: middle;
+        }
+    }
+    .phone{
+        background-color: #dd1a21;
+        color: #fff;
+    }
+    .email{
+        border: solid 1px ;
+        color: #dd1a21;
+    }
+    .loginTypes{
+        position: absolute;
+        left: 50%;
+        display: flex;
+        transform: translateX(-50%);
+        bottom: 85px;
+        color: #7f7f7f;
+        font-size: ceil(13.999px * 2);
+        div{
+            padding: 0 ceil(19.999px * 2);
+            white-space: nowrap; 
+            i{
+                margin-right: ceil(2.50012px * 2);
+            }
+            &:nth-child(2){
+                border-left: solid 1px;
+                border-right: solid 1px;
+            }
+        }
+    }
+}

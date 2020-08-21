@@ -1,0 +1,53 @@
+#login {
+  height: 100%;
+  background-color: #F1F5F4;
+}
+#login .logo {
+  padding: 160px 0 232px;
+  text-align: center;
+}
+#login .logo .logoImg {
+  height: 90px;
+}
+#login .btn {
+  width: 671px;
+  height: 94px;
+  box-sizing: border-box;
+  font-size: 28px;
+  text-align: center;
+  border-radius: 3px;
+  line-height: 94px;
+  margin: 0 auto 33px;
+}
+#login .btn i {
+  padding-right: 10px;
+  vertical-align: middle;
+}
+#login .phone {
+  background-color: #dd1a21;
+  color: #fff;
+}
+#login .email {
+  border: solid 1px ;
+  color: #dd1a21;
+}
+#login .loginTypes {
+  position: absolute;
+  left: 50%;
+  display: flex;
+  transform: translateX(-50%);
+  bottom: 85px;
+  color: #7f7f7f;
+  font-size: 28px;
+}
+#login .loginTypes div {
+  padding: 0 40px;
+  white-space: nowrap;
+}
+#login .loginTypes div i {
+  margin-right: 6px;
+}
+#login .loginTypes div:nth-child(2) {
+  border-left: solid 1px;
+  border-right: solid 1px;
+}

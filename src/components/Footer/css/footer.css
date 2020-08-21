@@ -1,0 +1,23 @@
+#footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  box-sizing: border-box;
+  border-top: solid 1px #F5F5F5;
+  width: 750px;
+  height: 98px;
+  display: flex;
+  justify-content: space-between;
+  color: #666;
+}
+#footer .iconfont {
+  margin-bottom: 5px;
+}
+#footer .aaa {
+  flex: 1;
+  font-size: 24px;
+  padding-top: 20px;
+}
+#footer .choice {
+  color: #dd1a21;
+}
